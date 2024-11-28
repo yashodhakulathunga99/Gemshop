@@ -1,0 +1,44 @@
+.gem-categories-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Adjust to fit your theme */
+}
+
+.categories-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  gap: 20px; /* Adds space between cards */
+}
+
+.category-card {
+  flex: 1; /* Ensures equal spacing between cards */
+  max-width: 200px; /* Limit the maximum width of each card */
+  text-align: center;
+  border: 1px solid #ddd; /* Optional: Add a border for visual distinction */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 10px;
+  background-color: #f9f9f9; /* Optional: Light background for cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow for cards */
+}
+
+.category-card img {
+  width: 100%; /* Images will take the full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners for images */
+}
+
+.category-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #444;
+}

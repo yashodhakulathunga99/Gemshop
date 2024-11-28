@@ -1,0 +1,38 @@
+/* Main container to center and space the sections */
+.container1 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+/* Style each section */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style for gem images */
+.gem-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the description */
+.description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -250px;
+  
+}
